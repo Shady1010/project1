@@ -1,0 +1,84 @@
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    margin: auto;
+    padding: auto;
+    width: 90%;
+    height: 98%;
+    background: snow;
+    font-family: "Times New Roman";
+    color:#333333;
+    font-size: 1.1em;
+}
+
+a {color:#333333; font-family: 'Times New Roman';}
+
+header{
+    height: 200px;
+    background: #F1F1F1;
+    border-radius: 0 0 5px 5px;
+    border: 1px solid #ccc;
+}
+
+.login{
+
+    margin: 20px ;
+    float: right;
+    width: 200px;
+    padding: 10px;
+    background: red;
+    border: 1px solid #ddd;
+    border-radius: 7px;
+}
+
+.news_block{
+    margin-top: 5px;
+    width: 79%;
+    float: right;
+    background: #F1F1F1;
+    border: 1px solid #ccc;
+}
+
+.news{
+    padding: 10px;
+    margin: 5px;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+
+.left_block{
+    margin-top: 5px;
+    width: 20.5%;
+    background:#F1F1F1;
+    float: left;
+    border: 1px solid #ccc;
+}
+.left_block h4{
+    margin: 0;
+    font-size: 1.4em;
+    padding: 10px 0 10px 0;
+    text-align: center;
+    background: white;
+    border-bottom: 1px solid #ccc;
+}
+.left_menu{
+    margin:4px;
+    list-style: none;
+    padding: 0;
+}
+.left_menu li{
+    margin: 6px;
+    padding: 2px;
+    background: #ffffff;
+    border-radius: 2px;
+}
+.left_menu a {
+    text-decoration: none;
+    padding-left: 10px;
+    display: block
+}
