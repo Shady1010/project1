@@ -5,8 +5,8 @@ class Route
     public static function start()
     {
         //Подключение middleware
-        include DIR_CATALOG.DIR_FILE[3].'login.php';
-        new Middleware_login();
+        new Login();
+
 
 
         //контроллер и действие по умолчанию
@@ -28,18 +28,18 @@ class Route
         $action_name = 'action_'.$action_name;
 
         $model_file = strtolower($model_name).'.php';
-        $model_path = DIR_CATALOG."models\\".$model_file;
+        $model_path = $_SERVER['DOCUMENT_ROOT']."/models/".$model_file;
 
         if (file_exists($model_path)) {
-            include DIR_CATALOG."models\\".$model_file;
+            include $_SERVER['DOCUMENT_ROOT']."/models/".$model_file;
         } else {
             new Exception();
         }
         $controller_file = strtolower($controller_name).'.php';
-        $controller_path = DIR_CATALOG."controllers\\".$controller_file;
+        $controller_path = $_SERVER['DOCUMENT_ROOT']."/controllers/".$controller_file;
 
         if (file_exists($controller_path)) {
-            include DIR_CATALOG."controllers\\".$controller_file;
+            include $_SERVER['DOCUMENT_ROOT']."/controllers/".$controller_file;
         } else {
             new Exception();
         }

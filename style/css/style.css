@@ -14,8 +14,31 @@ body{
     font-size: 1.1em;
 }
 
-a {color:#333333; font-family: 'Times New Roman';}
+a {
+    color:#333333;
+    font-family: 'Times New Roman';
+    text-decoration: none;
+}
+hr {border-color: cornsilk;}
+input,
+textarea {
+    outline:none;
+    border-style: none;
+    padding: 3px;
+}
 
+
+input{
+    color: coral;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 4px;
+}
+textarea{
+    font-size: 1.1em;
+    line-height: 1.4;
+    border-radius: 4px;
+}
 header{
     height: 200px;
     background: #F1F1F1;
@@ -24,15 +47,53 @@ header{
 }
 
 .login{
-
     margin: 20px ;
     float: right;
-    width: 200px;
-    padding: 10px;
-    background: red;
+    width: 240px;
+    background: #f3f6f5;
     border: 1px solid #ddd;
-    border-radius: 7px;
+    border-radius: 4px;
+
 }
+.login a{
+    padding: 5px 5px 5px 10px ;
+    display: block;
+    border-top: 1px solid #aaaaaa;
+}
+.login a:hover{
+    background: coral;
+}
+.login_name{
+    display: block;
+    background: #F1F1F1;
+    padding: 4px;
+    color: #ff5451;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 2px 2px 0 0;
+    border-bottom: 2px solid #333333;
+}
+
+.login_form{
+    padding: 5px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.login_form input[type="text"],input[type="password"]{
+    background-color: #f6f3e3;
+    color: #333;
+    width: 90%;
+    border: 1px solid #858585;
+}
+
+.login_form input[type="submit"]{
+    margin-top: 10px ;
+    background:coral;
+    color: #333;
+    width: 90%;
+    border: 1px solid #858585;
+}
+
 
 .news_block{
     margin-top: 5px;
@@ -40,6 +101,7 @@ header{
     float: right;
     background: #F1F1F1;
     border: 1px solid #ccc;
+    clear: left;
 }
 
 .news{
@@ -49,7 +111,48 @@ header{
     border: 1px solid #ccc;
     border-radius: 4px;
 }
+.news img{
+    float: left;
+    margin :5px 15px 5px 0;
+    border: 3px inset #c3c3c3;
+}
+.news h2 {
+    font-size: 1.1em;
+}
+.news h2 :hover{
+    color:coral;
+}
+.news_bottom_bar{
+    background: #f3f6f5;
+    color: #333;
+    font-weight: 300;
+    margin-top:35px ;
+    text-align: right;
+    padding: 3px 17px 3px 3px;
+    border:1px solid #ddd;
+    border-radius:4px;
+    clear: left;
+}
 
+.news input[type='submit']{
+    color: #333;
+    width: 120px;
+    background: cornsilk;
+    border:1px solid #999999;
+    border-radius: 3px;
+    padding: 10px;
+    margin-left: 45%;
+}
+.news input[type='number']{
+    background: #eaeaea;
+    width: 40px;
+    border: 1px solid #999999;
+    border-radius: 2px;
+    color: crimson;
+    text-align: center;
+    font-size: 0.8em;
+    padding-left:20px ;
+}
 
 .left_block{
     margin-top: 5px;
@@ -60,7 +163,7 @@ header{
 }
 .left_block h4{
     margin: 0;
-    font-size: 1.4em;
+    font-size: 1.3em;
     padding: 10px 0 10px 0;
     text-align: center;
     background: white;
@@ -73,12 +176,69 @@ header{
 }
 .left_menu li{
     margin: 6px;
-    padding: 2px;
+    padding: 3px;
     background: #ffffff;
-    border-radius: 2px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
 }
+.left_menu li:hover{
+    background: coral;
+}
+
 .left_menu a {
     text-decoration: none;
     padding-left: 10px;
     display: block
+}
+
+.footer{
+    padding: 5px;
+    width: 100%;
+    margin-top:200px ;
+    margin-bottom: 10px;
+    height: 200px;
+    background: #F1F1F1;
+    border: 1px solid #ccc;
+}
+.footer a{
+    color: #777777;
+}
+.footer ul{
+    margin-top: 5px;
+    margin-right: 15px;
+    text-align: right;
+}
+.footer ul li{
+    line-height: 1.5;
+    display: inline-block;
+    font-size:1em ;
+    list-style: none;
+}
+.footer ul li :hover{
+    color: coral;
+}
+
+.edit_img{
+    display: inline-block;
+}
+
+.page_navigation{
+    display: block;
+    text-align: center;
+}
+.page{
+    font-size: 0.7em;
+    font-family: Arial;
+    padding: 5px;
+    margin: 4px;
+    display: inline-block;
+    background: cornsilk;
+    border-radius: 3px;
+    border: 1px solid #888888;
+
+
+}
+.page:hover{background: coral;}
+.page a{
+    color: #333333;
 }

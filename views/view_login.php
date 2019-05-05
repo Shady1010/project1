@@ -1,10 +1,10 @@
-
-<form action="<?php DIR_CATALOG.DIR_FILE[3].'login.php'?>" method="post">
-    Логин:  <input type="text" name="login"><br>
-    Пароль: <input type="password" name="password"> <br>
-    <input type="submit" style="margin-top: 5px" value="Вход">
+<div class="login_form">
+<form action="<?php $_SERVER['DOCUMENT_ROOT'].'/'.DIR_FILE[3].'login.php'?>" method="post">
+    Логин:<br>  <input type="text" name="login"><br>
+    Пароль:<br> <input type="password" name="password"> <br>
+    <input type="submit"  value="Вход">
 </form>
-
+</div>
 
 
 
