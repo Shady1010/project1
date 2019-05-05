@@ -115,6 +115,10 @@ header{
     float: left;
     margin :5px 15px 5px 0;
     border: 3px inset #c3c3c3;
+    width: 150px;
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
 }
 .news h2 {
     font-size: 1.1em;
@@ -132,6 +136,7 @@ header{
     border:1px solid #ddd;
     border-radius:4px;
     clear: left;
+    font-size: 0.9em;
 }
 
 .news input[type='submit']{

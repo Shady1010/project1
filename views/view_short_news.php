@@ -1,10 +1,10 @@
  <?php
 
  //Вывод новостей
- foreach ($data as $key => $value) {
-    if($data !== null){
+ foreach ($this->data as $key => $value) {
+    if($this->data !== null){
         echo "<div class='news'>
-            <img src='/uploads/{$value['img']}' width='165' height='210'  >
+            <img src='/uploads/{$value['img']}' >
             <h2><a href='/news/urlNews/?idNews={$value['ID']}'>{$value['headline']}</a></h2><br>
             {$value['short_news']} <br><br>
             <div class='news_bottom_bar'>Категория: {$value['category']} | Автор: {$value['author']} | Дата: {$value['date']}</div> 

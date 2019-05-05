@@ -7,7 +7,11 @@
 
     <script src="http://js.nicedit.com/nicEdit-latest.js" type="text/javascript"></script>
     <script type="text/javascript">bkLib.onDomLoaded(nicEditors.allTextAreas);</script>
-
+    <script type="text/javascript">
+        //<![CDATA[
+        bkLib.onDomLoaded(function() { nicEditors.allTextAreas() });
+        //]]>
+    </script>
 </head>
 <body>
 
