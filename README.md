@@ -3,5 +3,5 @@
 
 Данные для входа в админ панель:
 
-Login: Admin
-Password: 111111
+Login: Admin ;
+Password: 111111;
