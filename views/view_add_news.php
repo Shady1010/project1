@@ -11,7 +11,7 @@
     </select>
     <br><br>
 
-    <label for="headline"> Заголовок: </label> <br><input type="text" name="headline" maxlength="50" id="headline"  style="border-style:none; border: 1px solid #c3c3c3; background: #F1F1F1; width: 50%; height: 30px;"><br><br>
+    <label for="headline"> Заголовок: </label> <br><input type="text" name="headline" maxlength="150" id="headline"  style="border-style:none; border: 1px solid #c3c3c3; background: #F1F1F1; width: 50%; height: 30px;"><br><br>
     <label for="short_news"> Аннотация (max 1000): <br></label> <textarea id="short_news" maxlength="1000" style="width:90%;height: 300px; border-style:none; border: 1px solid #c3c3c3; background: #F1F1F1; " name="short_news" maxlength="1000"></textarea><br><br>
     <label for="full_news"> Полная новость:<br></label>   <textarea  id="full_news" style="width:90%;height: 300px; border-style:none; border: 1px solid #c3c3c3; background: #F1F1F1;" name="full_news"></textarea><br><br>
     <label for="img">Загрузить фото </label><input  type="file"  id="img" name="img"><br><br>

@@ -1,7 +1,7 @@
 <div class='news'>
-    <form name="" action="/admin_panel/settings">
+    <form name="" action="/admin_panel/save_settings" METHOD="post">
         <label for="max_index_news">Изменить максимальное количество новостей в ленте на главной странице</label><br>
-        <input type="number" id="max_index_news" name="max_index_news" required value="<?php echo  config['LIMIT_NEWS']?>"> <hr>
+        <input type="number" id="max_index_news" name="max_index_news" required value="<?php echo  config['LIMIT_INDEX_NEWS']?>"> <hr>
 
         <label for="max_news">Изменить количество новостей на одной странице при выводе всех актуальных  новостей</label><br>
         <input type="number" id="max_news" name="max_news" required value="<?php echo  config['LIMIT_NEWS']?>"> <hr>

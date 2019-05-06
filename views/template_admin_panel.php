@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="ru" xmlns="http://www.w3.org/1999/html">
 <head>
+
     <meta charset="utf-8">
     <link rel="stylesheet" href="..\..\style\css\style.css">
     <title>Главная</title>
@@ -8,8 +9,10 @@
     <script src="http://js.nicedit.com/nicEdit-latest.js" type="text/javascript"></script>
     <script type="text/javascript">bkLib.onDomLoaded(nicEditors.allTextAreas);</script>
 
+
 </head>
 <body>
+
 <header><a href="/"> <img src="..\..\style\logo\logo.png" width="140" height="120" style="margin-top: 40px; margin-left: 40px"></a></header>
 <div class="news_block">
     <?php include $_SERVER['DOCUMENT_ROOT'].'/'.DIR_VIEW.$content_view; ?>

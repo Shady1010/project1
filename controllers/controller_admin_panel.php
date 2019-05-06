@@ -89,5 +89,14 @@ public function __construct()
         $this->view->generate_admin_panel('view_admin_settings.php', 'template_admin_panel');
     }
 
+    public function action_save_settings()
+    {
+        $max_index_news = $_POST['max_index_news'];
+        $max_news = $_POST['max_news'];
+
+        $this->model->set_settings($max_index_news, $max_news);
+        header('Location: /admin_panel/settings');
+    }
+
 
 }

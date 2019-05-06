@@ -79,9 +79,19 @@ class Model_admin_panel extends Model
         die('Файл удален!');
     }
 
-    public function set_settings($max_value_main, $max_value_news)
+    public function set_settings($max_index_news, $max_news)
     {
 
+        $limit_index_news = config['LIMIT_INDEX_NEWS'];
+        $limit_news =  config['LIMIT_NEWS'];
+
+       $lines =["'LIMIT_NEWS'=>".$limit_news, "'LIMIT_INDEX_NEWS'=>".$limit_index_news];
+
+
+       $contents =  file_get_contents($_SERVER['DOCUMENT_ROOT'].'/config/config.php');
+       $contents = str_replace($lines, array("'LIMIT_NEWS'=>".$max_news, "'LIMIT_INDEX_NEWS'=>".$max_index_news), $contents );
+
+       file_put_contents($_SERVER['DOCUMENT_ROOT'].'/config/config.php', $contents);
     }
 
 }

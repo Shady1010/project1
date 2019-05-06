@@ -5,7 +5,7 @@
     if($this->data !== null){
         echo "<div class='news'>
             <img src='/uploads/{$value['img']}' >
-            <h2><a href='/news/urlNews/?idNews={$value['ID']}'>{$value['headline']}</a></h2><br>
+            <h2><a href='/news/urlNews/?idNews={$value['ID']}'>{$value['headline']}</a></h2>
             {$value['short_news']} <br><br>
             <div class='news_bottom_bar'>Категория: {$value['category']} | Автор: {$value['author']} | Дата: {$value['date']}</div> 
             </div>";
