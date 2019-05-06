@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8ddb7135-4c20-42a5-973a-7f8b109df67f" name="Default" comment="" />
+    <list default="true" id="8ddb7135-4c20-42a5-973a-7f8b109df67f" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/config/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/config.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -171,7 +173,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="39" />
     <option name="y" value="146" />
     <option name="width" value="1936" />
@@ -285,12 +287,12 @@
       <workItem from="1553533200064" duration="6951000" />
       <workItem from="1553858797013" duration="15319000" />
       <workItem from="1554298139297" duration="127244000" />
-      <workItem from="1556193617114" duration="124410000" />
+      <workItem from="1556193617114" duration="124412000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="273924000" />
+    <option name="totallyTimeSpent" value="273926000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -303,7 +305,7 @@
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15625" />
-      <window_info active="true" anchor="bottom" id="Statistic" visible="true" weight="0.32946146" />
+      <window_info anchor="bottom" id="Statistic" weight="0.32946146" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32946146" />
